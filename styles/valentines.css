@@ -1,0 +1,70 @@
+body {
+  margin-top: 14vh;
+  background-color: #fae1dd;
+}
+
+.panelII {
+  margin: auto;
+  background-color: white;
+  width: calc(100% - 10%);
+  height: auto;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: 0.5s;
+}
+
+#yes, #no {
+  height: 40px;
+  width: 80px;
+  background-color: red;
+  border: solid 1px white;
+  border-radius: 10px;
+  color: white;
+}
+
+#no {
+  position: absolute;
+  margin-left: 170px;
+}
+
+#yes {
+  margin-right: 150px;
+}
+
+.answerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sadCat {
+  width: 400px;
+  margin: 20px;
+}
+
+.photos {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.arrow {
+  width: 100px;
+  background-color: white;
+  border: none;
+}
+
+.arrow img:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+
+.photosBox {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
